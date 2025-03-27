@@ -90,9 +90,9 @@ def sendSMS(carnumber):
             if key==userid:
                 userinfo=users.val()[key]
                 
-        account_sid='AC4fef8f7fcb293e63517706078626e263'
-        auth_token='d7eee1b441338e4718f12a858d60cbec'
-        twilio_number='+18088622726'
+        # account_sid='AC4fef8f7fcb293e63517706078626e263'
+        # auth_token='d7eee1b441338e4718f12a858d60cbec'
+        # twilio_number='+18088622726'
         contactno="+91"+userinfo["contactno"]
         messagetobesent="Welcome to "+parkinginfo["servicename"]+".Your parking slot number is "+str(emptySlots[0])+".We are requesting you to leave the parking on or before "+str(timeend)+":"+timelist[1]+" "+ampm
         
